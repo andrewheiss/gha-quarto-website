@@ -1,0 +1,15 @@
+{
+  "hash": "3fa7999b8352de14d113798b6da89c79",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"quarto-things\"\n---\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n## Long running thing!\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nadd_one_slowly <- \\(x) {\n  Sys.sleep(15)\n  x + 1\n}\n\nsapply(1:4, add_one_slowly)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2 3 4 5\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
