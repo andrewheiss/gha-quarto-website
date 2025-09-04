@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto-things",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#long-running-thing",
+    "href": "index.html#long-running-thing",
+    "title": "quarto-things",
+    "section": "Long running thing!",
+    "text": "Long running thing!\n\nadd_one_slowly &lt;- \\(x) {\n  Sys.sleep(15)\n  x + 1\n}\n\nsapply(1:4, add_one_slowly)\n\n[1] 2 3 4 5"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
